@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/app/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "lucide",
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "registries": {
+    "@magicui": "https://magicui.design/r/{name}.json",
+    "@smoothui": "https://smoothui.dev/r/{name}.json",
+    "@neobrutalism": "https://neobrutalism.com/r/{name}.json",
+    "@neobrutalism-base": "https://neobrutalism.com/r/base/{name}.json",
+    "@neobrutalism-radix": "https://neobrutalism.com/r/radix/{name}.json",
+    "@motion-primitives": "https://motion-primitives.com/c/{name}.json",
+    "@unlumen": "https://ui.unlumen.com/r/{name}.json",
+    "@21st": {
+      "url": "https://21st.dev/api/registry/{name}",
+      "headers": {
+        "x-api-key": "21st_sk_816d0001ad052a519b18bd507dd1802350882a2004924ba4c96ef267870e9adc"
+      }
+    }
+  }
+}
